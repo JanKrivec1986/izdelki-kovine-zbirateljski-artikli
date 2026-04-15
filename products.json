@@ -2,29 +2,36 @@
   {
     "name": "Kovinski kip - Konj",
     "description": "Ročno izdelan kovinski odlitek z izjemnimi detajli.",
-    "price": "120.00",
+    "price": 120.00,
     "category": "odlitki",
-    "image": "images/kip-konj.jpg"
+    "image": "https://via.placeholder.com/300x200?text=Kovinski+kip"
   },
   {
     "name": "Srebrni prstan",
     "description": "Eleganten ročno izdelan prstan iz srebra.",
-    "price": "45.00",
+    "price": 45.00,
     "category": "nakit",
-    "image": "images/prstan.jpg"
+    "image": "https://via.placeholder.com/300x200?text=Prstan"
   },
   {
     "name": "Zlati investicijski kovanec 1 oz",
     "description": "Kovanec iz čistega zlata (999.9).",
-    "price": "2200.00",
+    "price": 2200.00,
     "category": "kovanci",
-    "image": "images/zlati-kovanec.jpg"
+    "image": "https://via.placeholder.com/300x200?text=Zlati+kovanec"
+  },
+  {
+    "name": "Zbirateljska poštna znamka",
+    "description": "Redka zgodovinska poštna znamka v odličnem stanju.",
+    "price": 30.00,
+    "category": "zbirateljski",
+    "image": "https://via.placeholder.com/300x200?text=Znamka"
   },
   {
     "name": "Starinski bankovec",
-    "description": "Zbirateljski papirnati denar iz preteklega obdobja.",
-    "price": "55.00",
+    "description": "Avtentičen papirnati bankovec iz preteklega obdobja.",
+    "price": 55.00,
     "category": "zbirateljski",
-    "image": "images/bankovec.jpg"
+    "image": "https://via.placeholder.com/300x200?text=Bankovec"
   }
 ]
