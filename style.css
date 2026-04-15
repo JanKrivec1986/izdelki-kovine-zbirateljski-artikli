@@ -2,24 +2,29 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     line-height: 1.6;
+    background-color: #f8f8f8;
 }
 
 header {
-    background: #2e7d32;
-    color: white;
+    background: #333;
+    color: #fff;
     padding: 1rem;
     text-align: center;
 }
 
 nav a {
-    color: white;
-    margin: 0 10px;
+    color: #fff;
+    margin: 0 12px;
     text-decoration: none;
     font-weight: bold;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 .hero {
-    background: #f4f4f4;
+    background: #e0e0e0;
     padding: 2rem;
     text-align: center;
 }
@@ -35,10 +40,16 @@ section {
 }
 
 .product {
+    background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1rem;
     text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.product:hover {
+    transform: scale(1.02);
 }
 
 .product img {
@@ -48,11 +59,17 @@ section {
 
 .price {
     font-weight: bold;
-    color: #2e7d32;
+    color: #444;
+    margin: 10px 0;
+}
+
+.category {
+    font-style: italic;
+    color: #777;
 }
 
 button {
-    background: #2e7d32;
+    background: #555;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -61,7 +78,7 @@ button {
 }
 
 button:hover {
-    background: #1b5e20;
+    background: #000;
 }
 
 footer {
