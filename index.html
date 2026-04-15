@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="style.css">
+
+
+    <header>
+        <h1>Kmetija in Kovinske Umetnine</h1>
+        <nav>
+            <a href="#home">Domov</a>
+            <a href="#zelenjava">Zelenjava</a>
+            <a href="#umetnine">Umetnine</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Sveža lokalna zelenjava in unikatne kovinske umetnine</h2>
+        <p>Dobrodošli na naši spletni strani! Ponujamo doma pridelano zelenjavo in ročno izdelane kovinske odlitke.</p>
+    </section>
+
+    <section id="zelenjava">
+        <h2>Naša zelenjava</h2>
+        <div id="veg-container" class="products"></div>
+    </section>
+
+    <section id="umetnine">
+        <h2>Kovinske umetnine</h2>
+        <div id="art-container" class="products"></div>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Email: <a href="mailto:info@mojaposest.si">info@mojaposest.si</a></p>
+        <p>Telefon: 040 123 456</p>
+
+        <h3>Naročilo</h3>
+        <form action="https://formspree.io/f/yourID" method="POST">
+            <input type="text" name="name" placeholder="Vaše ime" required>
+            <input type="email" name="email" placeholder="Vaš email" required>
+            <textarea name="message" placeholder="Vaše naročilo" required></textarea>
+            <button type="submit">Pošlji</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Kmetija in Kovinske Umetnine</p>
+    </footer>
+
+    <script src="script.js"></script>
