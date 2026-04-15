@@ -46,7 +46,7 @@ Ta spletna stran je zasnovana za prodajo in predstavitev različnih izdelkov, vk
 
 ## 📞 Kontakt
 
-- 📧 Email: info@tvojadomena.si
+- 📧 Email: info.vnastajanju@gmail.com
 - 📍 Lokacija: Slovenija
 
 ## 📜 Licenca
