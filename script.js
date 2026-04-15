@@ -1,4 +1,4 @@
-const products = [
+/*const products = [
     {
         name: "Paradižnik",
         description: "Svež domač paradižnik.",
@@ -13,7 +13,7 @@ const products = [
         category: "umetnina",
         image: "https://via.placeholder.com/300x200?text=Kip+Konj"
     }
-];
+];*/
 
 function loadProducts() {
     const vegContainer = document.getElementById('veg-container');
