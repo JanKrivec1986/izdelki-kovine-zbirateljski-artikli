@@ -1,47 +1,52 @@
-<link rel="stylesheet" href="style.css">
-
-
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kovinske umetnine in zbirateljski artikli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <header>
-        <h1>Kmetija in Kovinske Umetnine</h1>
+        <h1>Kovinske umetnine in zbirateljski artikli</h1>
         <nav>
             <a href="#home">Domov</a>
-            <a href="#zelenjava">Zelenjava</a>
-            <a href="#umetnine">Umetnine</a>
+            <a href="#odlitki">Kovinski odlitki</a>
+            <a href="#nakit">Nakit</a>
+            <a href="#kovanci">Naložbeni kovanci</a>
+            <a href="#zbirateljsko">Zbirateljski artikli</a>
             <a href="#kontakt">Kontakt</a>
         </nav>
     </header>
 
     <section id="home" class="hero">
-        <h2>Sveža lokalna zelenjava in unikatne kovinske umetnine</h2>
-        <p>Dobrodošli na naši spletni strani! Ponujamo doma pridelano zelenjavo in ročno izdelane kovinske odlitke.</p>
+        <h2>Unikatne kovinske umetnine in zbirateljski predmeti</h2>
+        <p>Ponujamo ročno izdelane kovinske odlitke, nakit, naložbene kovance ter različne zbirateljske artikle, kot so znamke in papirnati denar. V prihodnosti načrtujemo tudi menjavo valut in podporo za kriptovalute.</p>
     </section>
 
-    <section id="zelenjava">
-        <h2>Naša zelenjava</h2>
-        <div id="veg-container" class="products"></div>
-    </section>
-
-    <section id="umetnine">
-        <h2>Kovinske umetnine</h2>
-        <div id="art-container" class="products"></div>
+    <section id="products">
+        <h2>Naša ponudba</h2>
+        <div id="products-container" class="products"></div>
     </section>
 
     <section id="kontakt">
         <h2>Kontakt</h2>
-        <p>Email: <a href="mailto:info@mojaposest.si">info@mojaposest.si</a></p>
-        <p>Telefon: 040 123 456</p>
+        <p>Email: <a href="mailto:info@tvojadomena.si">info@tvojadomena.si</a></p>
+        <p>Lokacija: Slovenija</p>
 
-        <h3>Naročilo</h3>
+        <h3>Povpraševanje</h3>
         <form action="https://formspree.io/f/yourID" method="POST">
             <input type="text" name="name" placeholder="Vaše ime" required>
             <input type="email" name="email" placeholder="Vaš email" required>
-            <textarea name="message" placeholder="Vaše naročilo" required></textarea>
+            <textarea name="message" placeholder="Vaše sporočilo ali povpraševanje" required></textarea>
             <button type="submit">Pošlji</button>
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2026 Kmetija in Kovinske Umetnine</p>
+        <p>&copy; 2026 Kovinske umetnine in zbirateljski artikli</p>
     </footer>
 
     <script src="script.js"></script>
+</body>
+</html>
