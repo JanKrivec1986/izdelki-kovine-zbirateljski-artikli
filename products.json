@@ -1,16 +1,37 @@
 [
-    {
-        "name": "Bizmut Kristal",
-        "description": "Bizmutovi kristali različnih dimenzij.",
-        "price": "4.00",
-        "category": "Kovine",
-        "image": "pot.jpg"
-    },
-    {
-        "name": "Kovinski kip - Konj",
-        "description": "Ročno izdelan kovinski odlitek.",
-        "price": "120.00",
-        "category": "umetnina",
-        "image": "images/umetnina1.jpg"
-    }
+  {
+    "name": "Kovinski kip - Konj",
+    "description": "Ročno izdelan kovinski odlitek z izjemnimi detajli.",
+    "price": "120.00",
+    "category": "Kovinski odlitek",
+    "image": "images/kip-konj.jpg"
+  },
+  {
+    "name": "Ročno izdelan srebrni prstan",
+    "description": "Eleganten prstan iz srebra, primeren za vsakodnevno nošenje.",
+    "price": "45.00",
+    "category": "Nakit",
+    "image": "images/prstan.jpg"
+  },
+  {
+    "name": "Zlati investicijski kovanec 1 oz",
+    "description": "Naložbeni kovanec iz čistega zlata (999.9).",
+    "price": "2200.00",
+    "category": "Naložbeni kovanec",
+    "image": "images/zlati-kovanec.jpg"
+  },
+  {
+    "name": "Zbirateljska poštna znamka",
+    "description": "Redka zgodovinska znamka v odličnem stanju.",
+    "price": "30.00",
+    "category": "Zbirateljski artikel",
+    "image": "images/znamka.jpg"
+  },
+  {
+    "name": "Starinski papirnati bankovec",
+    "description": "Avtentičen bankovec iz preteklega obdobja, primeren za zbiratelje.",
+    "price": "55.00",
+    "category": "Papirnati denar",
+    "image": "images/bankovec.jpg"
+  }
 ]
