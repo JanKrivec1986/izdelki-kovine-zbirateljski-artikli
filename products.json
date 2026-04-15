@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Bizmut Kristal",
+        "description": "Bizmutovi kristali različnih dimenzij.",
+        "price": "4.00",
+        "category": "Kovine",
+        "image": "pot.jpg"
+    },
+    {
+        "name": "Kovinski kip - Konj",
+        "description": "Ročno izdelan kovinski odlitek.",
+        "price": "120.00",
+        "category": "umetnina",
+        "image": "images/umetnina1.jpg"
+    }
+]
